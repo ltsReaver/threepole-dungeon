@@ -129,7 +129,7 @@
                                 >#{playerData.profileInfo.displayTag}</span
                             >
                         </h1>
-                        <h2 class="grey">NOT IN RAID</h2>
+                        <h2 class="grey">NOT IN DUNGEON</h2>
                     {/if}
                 {:else}
                     <h1 class="small">Error</h1>
@@ -176,7 +176,7 @@
         {#if playerData}
             <div class="margin">
                 <p class="summary">
-                    <span>Today's raids</span>
+                    <span>Today's dungeons</span>
                     <span class="key">
                         <span class="item">
                             <Dot completed={true} />{countedClears}
@@ -193,7 +193,7 @@
                     {/await}
                 {/each}
                 {#if playerData.activityHistory.length == 0}
-                    <p class="list-empty">No raids completed today.</p>
+                    <p class="list-empty">No dungeons completed today.</p>
                 {/if}
             </div>
         {/if}
