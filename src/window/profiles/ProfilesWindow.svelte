@@ -174,7 +174,7 @@
                 return;
             }
 
-            throw "Enter a valid Bungie ID or Raid Report link.";
+            throw "Enter a valid Bungie ID or Dungeon Report link.";
         } catch (e) {
             state.error = e.message ?? e;
         }
