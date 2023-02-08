@@ -98,7 +98,7 @@ pub async fn make_request(req: BungieRequest<'_>) -> Result<Value, BungieRespons
             api_request(&format!("/Destiny2/{membership_type}/Profile/{membership_id}?components={component}"), Method::GET)
         }
         BungieRequest::GetActivityHistory { membership_type, membership_id, character_id, page } =>  {
-            api_request(&format!("/Destiny2/{membership_type}/Account/{membership_id}/Character/{character_id}/Stats/Activities?mode=4&count=20&page={page}"), Method::GET)
+            api_request(&format!("/Destiny2/{membership_type}/Account/{membership_id}/Character/{character_id}/Stats/Activities?mode=82&count=20&page={page}"), Method::GET)
         }
         BungieRequest::GetDestinyActivityDefinition { activity_hash } => api_request(&format!("/Destiny2/Manifest/DestinyActivityDefinition/{activity_hash}"), Method::GET),
     };
