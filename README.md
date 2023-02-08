@@ -29,3 +29,7 @@ If you have any problems with installing or using threepole, feel free to ask in
 
 ## Acknowledgements
 Thanks to **Giraf**, **Icy**, and the other testers during beta.
+
+
+## Dungeon Note
+This is a edit for Dungeon all credits to Des I literally changed like 2 words/numbers to change the raids to dungeons - Reaver
