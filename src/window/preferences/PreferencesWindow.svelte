@@ -52,7 +52,7 @@
                     <StyledCheckbox
                         bind:checked={preferences.displayClearNotifications}
                         disabled={!preferences.enableOverlay}
-                        >Display raid clear notifications</StyledCheckbox
+                        >Display dungeon clear notifications</StyledCheckbox
                     >
                 </div>
                 <div class="preference">
